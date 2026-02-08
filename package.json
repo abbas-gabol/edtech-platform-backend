@@ -1,0 +1,26 @@
+{
+  "name": "edtech-platform-backend",
+  "version": "1.0.0",
+  "description": "backend platform for edtech",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbas-gabol/edtech-platform-backend.git"
+  },
+  "author": "Abbas Gabol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abbas-gabol/edtech-platform-backend/issues"
+  },
+  "homepage": "https://github.com/abbas-gabol/edtech-platform-backend#readme",
+  "dependencies": {
+    "mongoose": "^9.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
