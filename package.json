@@ -1,6 +1,7 @@
 {
   "name": "edtech-platform-backend",
   "version": "1.0.0",
+  "type": "module",
   "description": "backend platform for edtech",
   "main": "index.js",
   "scripts": {
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/abbas-gabol/edtech-platform-backend#readme",
   "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
     "mongoose": "^9.1.6"
   },
   "devDependencies": {
